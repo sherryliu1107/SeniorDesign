@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+<head>
+<meta charset="UTF-8">
+ <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script>
+    function startSimulation(url){
+	window.location = url;
+}
+</script>
+</head>
+<body>
+  <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+        <p>EMed Technology</p>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+          <li class="active"><a href="#" class="btn btn-lg">
+          <span class="glyphicon glyphicon-home"></span> Home
+       </a></li>
+        <li> <a href="#" class="btn  btn-lg">
+          <span class="glyphicon glyphicon-off"></span> Logout
+        </a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Student A</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+    <div class="container">
+        <div class="jumbotron">
+            <h2>Click below when you are ready to start the Simulation</h2>
+            <button type="button" class="btn btn-primary btn-lg" onClick="startSimulation('simulation.php')">Start Simulation </button>
+        </div>
+    </div>
+<footer class="container-fluid text-center">
+  <p>EMed Technology</p>
+</footer>
+</body> 
+</html>
+
+
+
+
